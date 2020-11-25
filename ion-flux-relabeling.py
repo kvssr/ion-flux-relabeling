@@ -38,7 +38,6 @@ def searchInt(l, i, result, parent = None):
 	
 	if half > 2:	
 		if i <= left[-1]:
-			#print(f'top left: {left[-1]} - i: {i}')
 			searchInt(left, i, result, root)
 			return
 		else:
